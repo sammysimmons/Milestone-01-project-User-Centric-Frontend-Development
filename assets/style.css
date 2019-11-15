@@ -1,0 +1,65 @@
+ @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300&display=swap');
+ body {
+     font-family: "open sans";
+     color: #000000;
+ }
+ /*------------------------------------------Header-----*/
+ 
+ .nav-item {
+     line-height: 60px;
+ }
+ 
+ .nav-link {
+     letter-spacing: 3px;
+     margin-right: 0px;
+     text-decoration: none;
+     color: inherit;
+ }
+ 
+ .nav-link:hover {
+     color: #e92020;
+ }
+ 
+ .hero-image {
+     height: 800px;
+     width: 100%;
+     overflow: hidden;
+     background: url("../images/Top-image.jpg") no-repeat left center
+ }
+ 
+ .hero-text,
+ .hero-text,
+ h2 {
+     color: #000000;
+     font-size: 14px;
+ }
+ 
+ .hero-text {
+     font-family: "open sans";
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     position: absolute;
+     left: 30%;
+     top: 40%;
+     width: 100%;
+     float: right;
+     font-size: 22px;
+ }
+ /*------------------------------------------About-----*/
+ 
+ .about {
+     padding-top: 30px;
+     padding-left: 30px;
+     height: 800px;
+     width: 50%;
+     line-height: 20px;
+ }
+ 
+ .img-thumbnail {
+     position: absolute;
+     border-radius: 50%;
+     width: 40%;
+     float: right;
+     left: 60%;
+     top: 100%;
+ }
