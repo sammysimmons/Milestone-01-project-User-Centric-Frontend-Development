@@ -1,139 +1,151 @@
- @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300&display=swap');
- body {
-     font-family: "open sans";
-     color: rgb(143, 143, 143);
- }
- /*------------------------------------------Header-----*/
- 
- .nav-item {
-     line-height: 60px;
- }
- 
- .nav-link {
-     letter-spacing: 3px;
-     margin-right: 0px;
-     color: inherit;
- }
- 
- .nav-link:hover {
-     color: #e92020;
- }
- 
- .hero-image {
-     position: relative;
-     height: 800px;
-     width: 100%;
-     overflow: hidden;
- }
- 
- .hero-text,
- .hero-text,
- h2 {
-     color: #fafafa;
-     font-size: 14px;
- }
- 
- .hero-text {
-     font-family: "open sans";
-     text-transform: uppercase;
-     letter-spacing: 3px;
-     position: absolute;
-     left: 50%;
-     top: 40%;
-     width: 100%;
-     float: right;
-     font-size: 22px;
- }
- /*------------------------------------------About-----*/
- 
- .about {
-     padding-top: 30px;
-     padding-left: 30px;
-     height: 800px;
-     width: 50%;
-     line-height: 20px;
- }
- 
- .img-thumbnail {
-     position: absolute;
-     border-radius: 50%;
-     width: 40%;
-     float: right;
-     left: 60%;
-     top: 100%;
- }
- /*------------------------------------------Services----*/
- 
- .services {
-     background-color: #AD7A7F;
-     height: 200px;
- }
- 
- .col-sm {
-     color: #fafafa;
-     padding: 30px 0 0 10px;
-     text-align: center;
-     margin: 2px;
- }
- /*------------------------------------------Portfolio----*/
- 
- .portfolio {
-     position: relative;
- }
- 
- .rounded .float-left {
-     display: block;
-     width: 100%;
-     height: auto;
- }
- 
- .overlay {
-     position: absolute;
-     bottom: 100%;
-     left: 0;
-     right: 0;
-     background-color: #008CBA;
-     overflow: hidden;
-     width: 100%;
-     height: 0;
-     transition: .5s ease;
- }
- 
- .portfolio:hover .overlay {
-     bottom: 0;
-     height: 100%;
- }
- 
- .project-description {
-     white-space: nowrap;
-     color: white;
-     font-size: 20px;
-     position: absolute;
-     overflow: hidden;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     -ms-transform: translate(-50%, -50%);
- }
- /*------------------------------------------contact----*/
- /*------------------------------------------Footer----*/
- 
- footer {
-     background-color: rgb(143, 143, 143);
-     height: 150px;
- }
- 
- .social {
-     text-align: center;
- }
- 
- .social li {
-     display: inline;
- }
- 
- .social i {
-     font-size: 160%;
-     margin: 1%;
-     padding: 30px;
-     color: #fafafa;
- }
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300&display=swap');
+body,
+html {
+    font-family: "open sans";
+    color: rgb(143, 143, 143);
+    height: 100%;
+    margin: 0;
+}
+
+
+/*------------------------------------------Header-----*/
+
+.nav-item {
+    line-height: 60px;
+}
+
+.nav-link {
+    letter-spacing: 3px;
+    margin-right: 0px;
+    color: inherit;
+}
+
+.nav-link:hover {
+    color: #e92020;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 80%;
+}
+
+.hero-text,
+h1,
+h2 {
+    float: right;
+}
+
+h2 {
+    color: #e92020;
+    font-size: 14px;
+}
+
+.hero-text {
+    position: absolute;
+    font-family: "open sans";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+/*------------------------------------------About-----*/
+
+.about {
+    padding-top: 30px;
+    padding-left: 30px;
+    height: 800px;
+    width: 50%;
+    line-height: 20px;
+}
+
+.img-thumbnail {
+    position: absolute;
+    border-radius: 50%;
+    width: 40%;
+    float: right;
+    left: 60%;
+    top: 100%;
+}
+
+
+/*------------------------------------------Services----*/
+
+.services {
+    background-color: #AD7A7F;
+    height: 200px;
+}
+
+.col-sm {
+    color: #fafafa;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    margin: 2px;
+}
+
+
+/*------------------------------------------Portfolio----*/
+
+.portfolio {
+    position: relative;
+}
+
+.rounded .float-left {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.portfolio:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.project-description {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+/*------------------------------------------contact----*/
+
+
+/*------------------------------------------Footer----*/
+
+footer {
+    background-color: rgb(143, 143, 143);
+    height: 150px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 30px;
+    color: #fafafa;
+}
