@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500|Open+Sans:300,400,500,600,700,800,900,1100');
 body,
 html {
     font-family: "open sans";
-    color: rgb(143, 143, 143);
+    color: rgb(82, 82, 82);
     height: 100%;
     margin: 0;
 }
@@ -21,30 +21,36 @@ html {
 }
 
 .nav-link:hover {
-    color: #e92020;
-}
-
-.img-fluid {
-    width: 100%;
-    height: 80%;
-}
-
-.hero-text,
-h1,
-h2 {
-    float: right;
+    color: #A64650;
 }
 
 h2 {
-    color: #e92020;
+    color: #A64650;
     font-size: 14px;
 }
 
 .hero-text {
     position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
     font-family: "open sans";
     text-transform: uppercase;
     letter-spacing: 3px;
+    text-align: center;
+    top: 50%;
+    color: rgb(82, 82, 82);
+}
+
+#logo {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    align-content: inherit;
+    top: 18%;
+    width: 20%;
+    height: auto;
 }
 
 
@@ -54,17 +60,32 @@ h2 {
     padding-top: 30px;
     padding-left: 30px;
     height: 800px;
-    width: 50%;
     line-height: 20px;
 }
 
 .img-thumbnail {
     position: absolute;
     border-radius: 50%;
-    width: 40%;
+    border-color: #A64650;
+    border-style: dotted;
     float: right;
     left: 60%;
-    top: 100%;
+    top: 110%;
+    width: 35%;
+    height: auto;
+}
+
+.info .key,
+.info .value {
+    display: inline-block;
+}
+
+.key {
+    font-weight: 900;
+}
+
+.btn {
+    position: inherit;
 }
 
 
