@@ -1,172 +1,206 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500|Open+Sans:300,400,500,600,700,800,900,1100');
-body,
-html {
-    font-family: "open sans";
-    color: rgb(82, 82, 82);
-    height: 100%;
-    margin: 0;
-}
-
-
-/*------------------------------------------Header-----*/
-
-.nav-item {
-    line-height: 60px;
-}
-
-.nav-link {
-    letter-spacing: 3px;
-    margin-right: 0px;
-    color: inherit;
-}
-
-.nav-link:hover {
-    color: #A64650;
-}
-
-h2 {
-    color: #A64650;
-    font-size: 14px;
-}
-
-.hero-text {
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    font-family: "open sans";
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-    top: 50%;
-    color: rgb(82, 82, 82);
-}
-
-#logo {
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    align-content: inherit;
-    top: 18%;
-    width: 20%;
-    height: auto;
-}
-
-
-/*------------------------------------------About-----*/
-
-.about {
-    padding-top: 30px;
-    padding-left: 30px;
-    height: 800px;
-    line-height: 20px;
-}
-
-.img-thumbnail {
-    position: absolute;
-    border-radius: 50%;
-    border-color: #A64650;
-    border-style: dotted;
-    float: right;
-    left: 60%;
-    top: 110%;
-    width: 35%;
-    height: auto;
-}
-
-.info .key,
-.info .value {
-    display: inline-block;
-}
-
-.key {
-    font-weight: 900;
-}
-
-.btn {
-    position: inherit;
-}
-
-
-/*------------------------------------------Services----*/
-
-.services {
-    background-color: #AD7A7F;
-    height: 200px;
-}
-
-.col-sm {
-    color: #fafafa;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    margin: 2px;
-}
-
-
-/*------------------------------------------Portfolio----*/
-
-.portfolio {
-    position: relative;
-}
-
-.rounded .float-left {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.overlay {
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    right: 0;
-    background-color: #008CBA;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
-}
-
-.portfolio:hover .overlay {
-    bottom: 0;
-    height: 100%;
-}
-
-.project-description {
-    white-space: nowrap;
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-}
-
-
-/*------------------------------------------contact----*/
-
-
-/*------------------------------------------Footer----*/
-
-footer {
-    background-color: rgb(143, 143, 143);
-    height: 150px;
-}
-
-.social {
-    text-align: center;
-}
-
-.social li {
-    display: inline;
-}
-
-.social i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 30px;
-    color: #fafafa;
-}
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500|Open+Sans:300,400,500,600,700,800,900,1100');
+    body,
+    html {
+        font-family: "open sans";
+        color: rgb(82, 82, 82);
+        height: 100%;
+        margin: 0;
+    }
+    /*------------------------------------------Header-----*/
+    
+    .nav-item {
+        line-height: 60px;
+    }
+    
+    .nav-link {
+        letter-spacing: 3px;
+        margin-right: 0px;
+        color: inherit;
+    }
+    
+    .nav-link:hover {
+        color: #A64650;
+    }
+    
+    h2 {
+        color: #A64650;
+        font-size: 42px;
+    }
+    
+    .hero-text {
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        font-family: "open sans";
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+        align-content: inherit;
+        top: 44%;
+        width: 50%;
+        height: auto;
+        scale: auto;
+        color: rgb(82, 82, 82);
+    }
+    
+    #logo {
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        align-content: inherit;
+        top: 18%;
+        width: 20%;
+        height: auto;
+    }
+    /*------------------------------------------About-----*/
+    
+    h3 {
+        color: #A64650;
+        font-size: 42px;
+        padding-left: 10px;
+    }
+    
+    .about {
+        padding-top: 30px;
+        padding-left: 30px;
+        height: 800px;
+        width: 100%;
+        line-height: 30px;
+        font-size: 22px;
+        background-color: lightgray;
+    }
+    
+    .img-thumbnail,
+    .float-sm-right {
+        position: absolute;
+        right: 15px;
+        top: 1200px;
+    }
+    
+    .img-thumbnail {
+        width: 40%;
+        height: auto;
+        border-radius: 50%;
+        border-color: #A64650;
+        border-style: dotted;
+    }
+    
+    .info .key,
+    .info .value {
+        position: inherit;
+        display: inline-block;
+    }
+    
+    .key {
+        font-weight: 900;
+    }
+    
+    .btn {
+        position: inherit;
+        width: auto;
+        height: 100px;
+    }
+    /*------------------------------percentage skills-----*/
+    
+    .circular-chart {
+        max-width: 80%;
+        max-height: 250px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    .circle {
+        stroke: #A64650;
+        fill: none;
+        stroke-width: 3;
+        stroke-linecap: round;
+        animation: progress 5s ease-out forwards;
+    }
+    
+    @keyframes progress {
+        0% {
+            stroke-dasharray: 0 100;
+        }
+    }
+    
+    .percentage {
+        font-size: 8px;
+        text-anchor: middle;
+    }
+    /*------------------------------------------Services----*/
+    
+    .services {
+        background-color: #AD7A7F;
+        height: 200px;
+    }
+    
+    .col-sm {
+        color: #fafafa;
+        padding: 30px 0 0 10px;
+        text-align: center;
+        margin: 2px;
+    }
+    /*------------------------------------------Portfolio----*/
+    
+    .portfolio {
+        position: relative;
+    }
+    
+    .rounded .float-left {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    .overlay {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-color: #008CBA;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+    }
+    
+    .portfolio:hover .overlay {
+        bottom: 0;
+        height: 100%;
+    }
+    
+    .project-description {
+        white-space: nowrap;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+    /*------------------------------------------contact----*/
+    /*------------------------------------------Footer----*/
+    
+    footer {
+        background-color: rgb(143, 143, 143);
+        height: 150px;
+    }
+    
+    .social {
+        text-align: center;
+    }
+    
+    .social li {
+        display: inline;
+    }
+    
+    .social i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 30px;
+        color: #fafafa;
+    }
