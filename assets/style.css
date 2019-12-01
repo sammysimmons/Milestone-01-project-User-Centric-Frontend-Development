@@ -79,53 +79,55 @@
         .key {
             font-weight: 900;
         }
+        /*------------------------------------------Skills----*/
+        
+        .skills {
+            padding: 30px 50px 50px 10px;
+        }
+        
+        .progress {
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        
+        h6 {
+            margin-left: 30px;
+            margin-top: 20px;
+            margin-bottom: 5px;
+            font-size: 22px;
+        }
         
         .cv-download {
-            padding-left: 30px;
-            width: auto;
+            position: absolute;
+            margin-top: 50px;
+            margin-left: 30px;
             height: 50px;
-        }
-        /*------------------------------percentage skills-----*/
-        
-        .circular-chart {
-            max-width: 80%;
-            max-height: 250px;
-            margin-right: 0;
-            margin-left: 0;
-        }
-        
-        .circle {
-            stroke: #A64650;
-            fill: none;
-            stroke-width: 3;
-            stroke-linecap: round;
-            animation: progress 5s ease-out forwards;
-        }
-        
-        @keyframes progress {
-            0% {
-                stroke-dasharray: 0 100;
-            }
-        }
-        
-        .percentage {
-            font-size: 8px;
-            text-anchor: middle;
-        }
-        /*------------------------------------------Services----*/
-        
-        .services {
-            background-color: rgb(143, 143, 143);
-            height: 400px;
-            color: #fafafa;
-            padding: 30px 0 0 10px;
-            text-align: center;
-            margin: 2px;
+            width: auto;
         }
         /*------------------------------------------portfolio----*/
+        
+        h2 {
+            margin-top: 150px;
+            margin-left: 30px;
+            font-size: 42px;
+            font-weight: 900;
+        }
+        
+        #portfolio,
+        .float-sm-left {
+            height: 620px;
+        }
         /*------------------------------------------contact----*/
         
-        .contact {
+        h4 {
+            position: absolute;
+            font-family: "open sans";
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-align: center;
+        }
+        
+        #contact {
             background-color: #A64650;
             height: 600px;
         }
@@ -156,21 +158,23 @@
             #hero-image {
                 height: 1200px;
                 width: 100%;
-                background: url("../images/hero-image02.jpg") no-repeat center center;
+                background: url("../images/hero-image03.jpg") no-repeat center center;
             }
         }
         
         @media (min-width:600px) {
             #about {
+                height: 1550px;
+                width: 100%;
                 background: url("../images/about section.jpg") no-repeat center center;
                 background-size: cover;
-                height: 1200px;
-                width: 100%;
             }
         }
         
-        @media(min-width:600px) {
-            #portfolio {
-                size: 10%;
+        @media (min-width:600px) {
+            #portfolio,
+            .float-sm-left {
+                height: 310%x;
+                width: auto;
             }
         }
