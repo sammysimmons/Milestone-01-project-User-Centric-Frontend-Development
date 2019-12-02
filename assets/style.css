@@ -22,9 +22,14 @@
             color: #A64650;
         }
         
-        h2 {
+        .intro {
             color: #A64650;
             font-size: 42px;
+            font-weight: 400;
+        }
+        
+        h1 {
+            font-size: 64px;
         }
         
         .hero-text {
@@ -49,13 +54,14 @@
             margin: 0 auto;
             left: 0;
             right: 0;
-            align-content: inherit;
             top: 18%;
-            width: 20%;
-            height: auto;
-            scale: auto;
+            max-width: none;
         }
         /*------------------------------------------About-----*/
+        
+        #about {
+            max-height: none;
+        }
         
         h3 {
             color: #A64650;
@@ -111,30 +117,40 @@
             margin-left: 30px;
             font-size: 42px;
             font-weight: 900;
+            font-family: montserrat;
         }
         
-        #portfolio,
         .float-sm-left {
-            height: 620px;
+            width: 25%;
         }
         /*------------------------------------------contact----*/
         
         h4 {
-            position: absolute;
-            font-family: "open sans";
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            text-align: center;
+            font-family: Montserrat;
+            margin-top: 30px;
+            margin-left: 35px;
+            margin-bottom: 20px;
+            font-size: 42px;
+            font-weight: 900;
+            ;
         }
         
-        #contact {
-            background-color: #A64650;
+        form {
+            font-family: Montserrat;
+            margin-left: 20px;
             height: 600px;
+        }
+        
+        .submit,
+        .btn {
+            margin-top: 20px;
+            margin-left: 10px;
+            width: auto;
         }
         /*------------------------------------------Footer----*/
         
         footer {
-            background-color: rgb(143, 143, 143);
+            background-color: #A64650;
             height: 150px;
         }
         
@@ -164,17 +180,17 @@
         
         @media (min-width:600px) {
             #about {
-                height: 1550px;
-                width: 100%;
+                max-width: 110%;
+                height: auto;
                 background: url("../images/about section.jpg") no-repeat center center;
                 background-size: cover;
+                overflow: hidden;
             }
         }
         
         @media (min-width:600px) {
-            #portfolio,
-            .float-sm-left {
-                height: 310%x;
-                width: auto;
+            container-lg {
+                max-width: 200%;
+                height: auto;
             }
         }
