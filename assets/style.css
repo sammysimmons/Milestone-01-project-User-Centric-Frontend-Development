@@ -4,6 +4,7 @@
             font-family: "open sans";
             color: rgb(82, 82, 82);
             height: 100%;
+            width: 100%;
             margin: 0;
         }
         /*------------------------------------------Header-----*/
@@ -123,6 +124,22 @@
         .float-sm-left {
             width: 25%;
         }
+        
+        .quote {
+            position: absolute;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            font-family: "montserrat";
+            font-size: 45px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-align: center;
+            top: 384%;
+            width: 30%;
+            color: #A64650;
+        }
         /*------------------------------------------contact----*/
         
         h4 {
@@ -138,13 +155,13 @@
         form {
             font-family: Montserrat;
             margin-left: 20px;
-            height: 600px;
         }
         
         .submit,
         .btn {
             margin-top: 20px;
             margin-left: 10px;
+            margin-bottom: 20px;
             width: auto;
         }
         /*------------------------------------------Footer----*/
@@ -175,6 +192,7 @@
                 height: 1200px;
                 width: 100%;
                 background: url("../images/hero-image03.jpg") no-repeat center center;
+                background-attachment: fixed;
             }
         }
         
@@ -192,5 +210,15 @@
             container-lg {
                 max-width: 200%;
                 height: auto;
+            }
+        }
+        
+        @media (min-width:600px) {
+            #contact {
+                height: 900px;
+                width: 100%;
+                background: url("../images/Contact backing.jpg") no-repeat center center;
+                background-attachment: fixed;
+                padding-bottom: 20px;
             }
         }
