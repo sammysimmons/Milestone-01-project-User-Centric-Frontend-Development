@@ -1,272 +1,319 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500|Open+Sans:300,400,500,600,700,800,900,1100');
-body,
-html {
-    font-family: "open sans";
-    color: rgb(82, 82, 82);
-    height: 100%;
-    width: 100%;
-    margin: 0;
-}
-
-
-/*------------------------------------------Header-----*/
-
-.nav-item {
-    line-height: 60px;
-}
-
-.nav-link {
-    font-size: 12px;
-    letter-spacing: 3px;
-    margin-right: 0px;
-    color: inherit;
-}
-
-.nav-link:hover {
-    color: #A64650;
-}
-
-.intro {
-    color: #A64650;
-    font-size: 42px;
-    font-weight: 400;
-}
-
-h1 {
-    font-size: 34px;
-    scale: auto;
-}
-
-.hero-text {
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    font-family: "open sans";
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-    align-content: inherit;
-    top: 54%;
-    width: 40%;
-    height: auto;
-    scale: auto;
-    color: rgb(82, 82, 82);
-}
-
-#logo {
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 18%;
-    max-width: 100%;
-}
-
-
-/*------------------------------------------About-----*/
-
-#about {
-    max-height: none;
-}
-
-h3 {
-    color: #A64650;
-    font-size: 42px;
-    padding-left: 10px;
-}
-
-.info {
-    padding-top: 30px;
-    padding-left: 30px;
-    line-height: 40px;
-    font-size: 22px;
-}
-
-.introduction {
-    padding-left: 15px;
-}
-
-.info .key,
-.info .value {
-    display: inline-block;
-}
-
-.key {
-    font-weight: 900;
-}
-
-
-/*------------------------------------------Skills----*/
-
-.skills {
-    padding: 30px 40px 50px 10px;
-}
-
-.progress {
-    margin-top: 20px;
-    margin-left: 30px;
-}
-
-h6 {
-    margin-left: 30px;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    font-size: 22px;
-}
-
-.cv-download {
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 30px;
-    height: 50px;
-    width: auto;
-}
-
-
-/*------------------------------------------portfolio----*/
-
-h2 {
-    margin-top: 150px;
-    margin-left: 30px;
-    font-size: 42px;
-    font-weight: 900;
-    font-family: "montserrat";
-}
-
-.portfolio {
-    position: relative;
-    display: block;
-    height: auto;
-}
-
-.portfolio img {
-    float: left;
-    width: 25%;
-    z-index: 1;
-    position: relative;
-    transition: all 0.5s ease-in-out;
-    display: block;
-}
-
-.portfolio:hover {
-    opacity: 50%;
-    transition: .5s ease;
-}
-
-h5 {
-    color: #A64650;
-    font-family: "montserrat";
-    font-size: 20px;
-    top: 60px;
-    z-index: 0;
-    width: 100%;
-    display: block;
-    text-align: center;
-    position: absolute;
-}
-
-
-/*------------------------------------------quote breaker ----*/
-
-.quote {
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    padding-top: 250px;
-    font-family: "montserrat";
-    font-size: 40px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-    align-content: inherit;
-    height: auto;
-    scale: auto;
-    color: #A64650;
-}
-
-
-/*------------------------------------------contact----*/
-
-h4 {
-    font-family: "Montserrat";
-    margin-top: 30px;
-    margin-left: 35px;
-    margin-bottom: 20px;
-    font-size: 42px;
-    font-weight: 900;
-    ;
-}
-
-form {
-    font-family: "Montserrat";
-    margin-left: 20px;
-}
-
-.submit,
-.btn {
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    width: auto;
-}
-
-
-/*------------------------------------------Footer----*/
-
-footer {
-    background-color: #A64650;
-    height: 150px;
-}
-
-.social {
-    text-align: center;
-}
-
-.social li {
-    display: inline;
-}
-
-.social i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 30px;
-    color: #fafafa;
-}
-
-
-/*------------media--------*/
-
-@media (min-width: 375px) {
-    #hero-image {
-        height: 1200px;
-        width: 100%;
-        background: url("../images/hero-image03.jpg") no-repeat center center;
-        background-attachment: fixed;
-    }
-}
-
-@media (min-width:375px) {
-    #about {
-        max-width: 100%;
-        height: auto;
-        background: url("../images/about-me.jpg") no-repeat center center;
-        background-size: cover;
-        overflow: hidden;
-    }
-}
-
-@media (min-width:375px) {
-    #contact {
-        height: 900px;
-        width: 100%;
-        background: url("../images/Contact backing.jpg") no-repeat center center;
-        background-attachment: fixed;
-        padding-bottom: 20px;
-    }
-}
-
-
-}
+                @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500|Open+Sans:300,400,500,600,700,800,900,1100');
+            body,
+            html {
+                font-family: "open sans";
+                color: rgb(82, 82, 82);
+                height: 100%;
+                width: 100%;
+                margin: 0;
+            }
+            /*------------------------------------------Header-----*/
+            
+            .nav-bar {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                background-color: #fafafa;
+            }
+            
+            .nav-item {
+                position: sticky;
+                line-height: 60px;
+            }
+            
+            .nav-link {
+                position: relative;
+                font-size: 20px;
+                letter-spacing: 3px;
+                color: inherit;
+            }
+            
+            .nav-link:hover {
+                color: #A64650;
+            }
+            
+            .nav-logo {
+                float: left;
+                width: 80px;
+                height: auto;
+            }
+            
+            .intro {
+                color: #A64650;
+                font-size: 42px;
+                font-weight: 400;
+            }
+            
+            h1 {
+                font-size: 34px;
+                scale: auto;
+            }
+            
+            .hero-text {
+                position: absolute;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+                font-family: "open sans";
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                text-align: center;
+                align-content: inherit;
+                top: 54%;
+                width: 40%;
+                height: auto;
+                scale: auto;
+                color: rgb(82, 82, 82);
+            }
+            
+            #logo {
+                position: absolute;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+                top: 18%;
+                max-width: 100%;
+            }
+            /*------------------------------------------About-----*/
+            
+            #about {
+                max-height: ;
+            }
+            
+            h3 {
+                color: #A64650;
+                font-size: 42px;
+                padding-left: 10px;
+            }
+            
+            .info {
+                padding-top: 30px;
+                padding-left: 30px;
+                line-height: 40px;
+                font-size: 22px;
+            }
+            
+            .introduction {
+                padding-left: 15px;
+            }
+            
+            .info .key,
+            .info .value {
+                display: inline-block;
+            }
+            
+            .key {
+                font-weight: 900;
+            }
+            
+            #hero-image {
+                background-position: bottom;
+            }
+            /*------------------------------------------Skills----*/
+            
+            .skills {
+                padding: 30px 40px 50px 10px;
+            }
+            
+            .progress {
+                margin-top: 20px;
+                margin-left: 30px;
+            }
+            
+            h6 {
+                margin-left: 30px;
+                margin-top: 20px;
+                margin-bottom: 5px;
+                font-size: 22px;
+            }
+            
+            .cv-download {
+                position: absolute;
+                margin-top: 50px;
+                margin-left: 30px;
+                height: 50px;
+                width: auto;
+            }
+            /*------------------------------------------portfolio----*/
+            
+            h2 {
+                margin-top: 150px;
+                margin-left: 30px;
+                font-size: 42px;
+                font-weight: 900;
+                font-family: "montserrat";
+            }
+            
+            .portfolio {
+                position: relative;
+                display: block;
+                height: auto;
+            }
+            
+            .portfolio img {
+                float: left;
+                width: 60%;
+                z-index: 1;
+                position: relative;
+                transition: all 0.5s ease-in-out;
+                display: block;
+            }
+            
+            .portfolio:hover {
+                opacity: 20%;
+                transition: .5s ease;
+            }
+            
+            h5 {
+                color: #A64650;
+                font-family: "montserrat";
+                font-size: 20px;
+                top: 60px;
+                z-index: 0;
+                width: 100%;
+                display: block;
+                text-align: center;
+                position: absolute;
+            }
+            /*------------------------------------------quote breaker ----*/
+            
+            .quote {
+                position: absolute;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+                padding-top: 250px;
+                font-family: "montserrat";
+                font-size: 40px;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                text-align: center;
+                align-content: inherit;
+                height: auto;
+                scale: auto;
+                color: #A64650;
+            }
+            /*------------------------------------------contact----*/
+            
+            h4 {
+                font-family: "Montserrat";
+                margin-top: 30px;
+                margin-left: 35px;
+                margin-bottom: 20px;
+                font-size: 42px;
+                font-weight: 900;
+                ;
+            }
+            
+            form {
+                font-family: "Montserrat";
+                margin-left: 20px;
+                width: 1500px;
+            }
+            
+            .submit,
+            .btn {
+                margin-top: 20px;
+                margin-left: 10px;
+                margin-bottom: 20px;
+                width: auto;
+            }
+            /*------------------------------------------Footer----*/
+            
+            footer {
+                background-color: #A64650;
+                height: 150px;
+            }
+            
+            .social {
+                text-align: center;
+            }
+            
+            .social li {
+                display: inline;
+            }
+            
+            .social i {
+                font-size: 50px;
+                padding: 20px;
+                color: #fafafa;
+            }
+            /*------------media--------*/
+            
+            @media (min-width: 375px) {
+                #hero-image {
+                    height: 1200px;
+                    width: 100%;
+                    background: url("../images/hero-image03.jpg") no-repeat center center;
+                    background-attachment: fixed;
+                }
+                #about {
+                    max-width: 100%;
+                    height: auto;
+                    background: url("../images/about-me.jpg") no-repeat center center;
+                    background-size: cover;
+                    overflow: hidden;
+                }
+                #contact {
+                    height: 900px;
+                    width: 100%;
+                    background: url("../images/Contact backing.jpg") no-repeat center center;
+                    background-attachment: fixed;
+                    padding-bottom: 20px;
+                }
+            }
+            
+            @media (min-width:375px) {
+                .portfolio img {
+                    width: 25%;
+                }
+            }
+            
+            @media (min-width:375px) {
+                .social i {
+                    text-align: center;
+                    font-size: 20px;
+                }
+            }
+            /*------------media mobile--------*/
+            
+            @media (max-width:600px) {
+                .nav-logo {
+                    visibility: hidden;
+                }
+                .nav-link {
+                    margin: 0 auto;
+                    left: 0;
+                    right: 0;
+                    font-size: 10px;
+                    line-height: 25px;
+                }
+                #hero-image {
+                    background: url("../images/hero-image03.jpg") no-repeat;
+                    background-size: 1200px;
+                    background-position-x: left;
+                    background-position-y: center;
+                    background-attachment: fixed;
+                }
+                #logo {
+                    max-width: 50%;
+                }
+                .intro {
+                    align-content: center;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                h1 {
+                    font-size: 24px;
+                }
+                .hero-text {
+                    margin: 0 auto;
+                    left: 0;
+                    right: 0;
+                    font-family: "open sans";
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                    top: 44%;
+                    width: 300px;
+                }
