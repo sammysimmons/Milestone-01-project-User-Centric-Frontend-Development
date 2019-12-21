@@ -9,7 +9,7 @@ Being a graphic designer for the past 10 years, and recently transitioning into 
 
 Designed for future employees to showcase skills and examples of work, but also on an advertisement bases for freelance opportunites
 
-###*User Stories -* 
+### *User Stories -* 
 
 As an Employer I expect to see recent projects of samanthas work, along with a downloadable link for her CV.
 
@@ -45,18 +45,18 @@ My clicking on links in the nav bar, you are taken straight to that area of the 
 
 When using the Contact Form, I have ensured all fields are required before you can submit an enquiry, this has also been tested manually.
 
-###Errors i came across
+### Errors i came across
 When testing my site, the main problem i came across was setting the media queries correctly.
 
 # Deployment
 
 # Credits
 
-###*Content*
+### *Content*
 The percentage circles, i have used to highlight my skills were found from the following guide... 
 (https://medium.com/@pppped/how-to-code-a-responsive-circular-percentage-chart-with-svg-and-css-3632f8cd7705) I have formatted these to suit the style of my project, but also to give accuracy for each skillset they represent.
 
 
-###*Media*
+### *Media*
 All imagery used is from brands I have colaborated with. I have permission to showcase any design work, aslong as the brand products have been released and are in the public eye.
 
