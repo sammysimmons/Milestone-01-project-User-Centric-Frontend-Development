@@ -22,7 +22,7 @@ I have utilised alot of my project work to create the background of this project
 # technologies
 1. HTML
 2. CSS
-3. Bootstrap (3.3.7)
+3. Bootstrap 
 
 # Testing
 
@@ -30,5 +30,11 @@ I have utilised alot of my project work to create the background of this project
 
 # Credits
 
+*Content*
 The percentage circles, i have used to highlight my skills were found from the following guide 
 (https://medium.com/@pppped/how-to-code-a-responsive-circular-percentage-chart-with-svg-and-css-3632f8cd7705) I have formatted these to suit the style of my project, but also to give accuracy for each skill they represent.
+
+
+*Media*
+All imagery used is from brands, i have colaborated with, I have permission to showcase any design work, aslong as the brand products have been released and are in the public eye.
+
