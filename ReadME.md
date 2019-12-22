@@ -45,7 +45,9 @@ My clicking on links in the nav bar, you are taken straight to that area of the 
 When using the Contact Form, I have ensured all fields are required before you can submit an enquiry, this has also been tested manually.
 
 ## Errors i came across
-When testing my site, the areas that needed re-assessing was the portfolio section where i have tiled out my previous work, having to ensure that all 
+When testing my site, the areas that needed re-assessing was the portfolio section where i have tiled out my previous work, as the format for this section changed a few times when designing for mobile. Once key lesson i have learnt now working in UX design, is to always design for mobile first.
+
+Additionally to this, i can across the error 404 failed to load resource when testing in safari, however after i re-uploaded my hero image this error disappeared.
 
 # Deployment
 The site is hosted using github pages.
