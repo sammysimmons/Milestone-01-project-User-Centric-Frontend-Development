@@ -16,9 +16,7 @@ As an Employer I expect to see recent projects of samanthas work, along with a d
 As a customer I also expect to see recent projects Samantha has worked on but also be able to get in touch to discuss work availability.
 
 ## Landing page wireframes
-
-
-![Sketches](..Wireframe-sketchup.jpeg )
+![Sketches] (Wireframe-sketchup.jpeg) (Website_mock_up.jpg)
 
 # Features
 I have utilised alot of my project work to create the background of this project, along with creating my own brand identity, and follow the colour scheme throughout the website.
@@ -48,7 +46,7 @@ My clicking on links in the nav bar, you are taken straight to that area of the 
 When using the Contact Form, I have ensured all fields are required before you can submit an enquiry, this has also been tested manually.
 
 ## Errors i came across
-When testing my site, the main problem i came across was setting the media queries correctly.
+When testing my site, the areas that needed re-assessing was the portfolio section where i have tiled out my previous work, having to ensure that all 
 
 # Deployment
 
