@@ -18,7 +18,7 @@ As a customer I also expect to see recent projects Samantha has worked on but al
 ## Landing page wireframes
 
 
-![Alt text](relative/path/to/Wireframe-sketchup.jpeg?raw=true "Title")
+![Sketches](..Wireframe-sketchup.jpeg )
 
 # Features
 I have utilised alot of my project work to create the background of this project, along with creating my own brand identity, and follow the colour scheme throughout the website.
@@ -54,11 +54,11 @@ When testing my site, the main problem i came across was setting the media queri
 
 # Credits
 
-## *Content*
+### *Content*
 The percentage circles, i have used to highlight my skills were found from the following guide... 
 (https://medium.com/@pppped/how-to-code-a-responsive-circular-percentage-chart-with-svg-and-css-3632f8cd7705) I have formatted these to suit the style of my project, but also to give accuracy for each skillset they represent.
 
 
-## *Media*
+### *Media*
 All imagery used is from brands I have colaborated with. I have permission to showcase any design work, aslong as the brand products have been released and are in the public eye.
 
