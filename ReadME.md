@@ -24,7 +24,7 @@ I have utilised alot of my project work to create the background of this project
 ## Features left to implement
 1)I would like to implement a hover over section, which would give an overview into each project, giving a description and a title.
 
-2) I would like to built a portfolio page which would contain a full in depth portfolio.
+2) I would like to built a portfolio page which would contain a full in depth portfolio, along with more descriptions
 
 3) I would like to continue to expand on the blog page, and write up my journey from graphic designer, to developer.
 
@@ -49,10 +49,13 @@ When using the Contact Form, I have ensured all fields are required before you c
 When testing my site, the areas that needed re-assessing was the portfolio section where i have tiled out my previous work, having to ensure that all 
 
 # Deployment
+The site is hosted using github pages.
 
 # Credits
-
 ### *Content*
+All Content included, has been written by myself.
+
+#### Acknowledgement 
 The percentage circles, i have used to highlight my skills were found from the following guide... 
 (https://medium.com/@pppped/how-to-code-a-responsive-circular-percentage-chart-with-svg-and-css-3632f8cd7705) I have formatted these to suit the style of my project, but also to give accuracy for each skillset they represent.
 
