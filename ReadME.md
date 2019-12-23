@@ -17,7 +17,8 @@ As a customer I also expect to see recent projects Samantha has worked on but al
 
 ### Landing Page wireframes
 
-\![Sketches] (Wireframe-sketchup.jpeg) (Website_mock_up.jpg)
+![alt text](https://github.com/sammysimmons/sammysimmons.github.io/blob/master/images/Wireframe-sketchup.jpeg)
+![alt text](https://github.com/sammysimmons/sammysimmons.github.io/blob/master/images/Website_mock_up.jpg)
 
 # Features
 I have utilised alot of my project work to create the background of this project, along with creating my own brand identity, and follow the colour scheme throughout the website.
@@ -52,7 +53,7 @@ When testing my site, the areas that needed re-assessing was the portfolio secti
 Additionally to this, i can across the error 404 failed to load resource when testing in safari, however after i re-uploaded my hero image this error disappeared.
 
 # Deployment
-The site is hosted using github pages.
+The site is hosted using github pages, any additional or new commits will automatically be updated as this links to my master branch.
 
 # Credits
 ### *Content*
