@@ -1,460 +1,460 @@
-                                                                                                                                                                                                                                                                                                                                                                         @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500|Open+Sans:300,400,500,600,700,800,900,1100');
-                                                                                                                                                                                                                                                                                                                                                                 body,
-                                                                                                                                                                                                                                                                                                                                                                 html {
-                                                                                                                                                                                                                                                                                                                                                                     font-family: "open sans";
-                                                                                                                                                                                                                                                                                                                                                                     color: rgb(82, 82, 82);
-                                                                                                                                                                                                                                                                                                                                                                     height: 100%;
-                                                                                                                                                                                                                                                                                                                                                                     width: 100%;
-                                                                                                                                                                                                                                                                                                                                                                     margin: 0;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 /*------------------------------------------Header-----*/
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .nav-bar {
-                                                                                                                                                                                                                                                                                                                                                                     position: fixed;
-                                                                                                                                                                                                                                                                                                                                                                     z-index: 100;
-                                                                                                                                                                                                                                                                                                                                                                     top: 0;
-                                                                                                                                                                                                                                                                                                                                                                     width: 100%;
-                                                                                                                                                                                                                                                                                                                                                                     background-color: #fafafa;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .nav-item {
-                                                                                                                                                                                                                                                                                                                                                                     position: sticky;
-                                                                                                                                                                                                                                                                                                                                                                     line-height: 60px;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .nav-link {
-                                                                                                                                                                                                                                                                                                                                                                     position: relative;
-                                                                                                                                                                                                                                                                                                                                                                     font-size: 12px;
-                                                                                                                                                                                                                                                                                                                                                                     letter-spacing: 3px;
-                                                                                                                                                                                                                                                                                                                                                                     color: inherit;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .nav-link:hover {
-                                                                                                                                                                                                                                                                                                                                                                     color: #A64650;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .nav-logo {
-                                                                                                                                                                                                                                                                                                                                                                     margin-left: 30px;
-                                                                                                                                                                                                                                                                                                                                                                     float: left;
-                                                                                                                                                                                                                                                                                                                                                                     width: 80px;
-                                                                                                                                                                                                                                                                                                                                                                     height: auto;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .intro {
-                                                                                                                                                                                                                                                                                                                                                                     color: #A64650;
-                                                                                                                                                                                                                                                                                                                                                                     font-size: 32px;
-                                                                                                                                                                                                                                                                                                                                                                     font-weight: 400;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 h1 {
-                                                                                                                                                                                                                                                                                                                                                                     font-size: 28px;
-                                                                                                                                                                                                                                                                                                                                                                     scale: auto;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .hero-text {
-                                                                                                                                                                                                                                                                                                                                                                     position: absolute;
-                                                                                                                                                                                                                                                                                                                                                                     margin: 0 auto;
-                                                                                                                                                                                                                                                                                                                                                                     left: 0;
-                                                                                                                                                                                                                                                                                                                                                                     right: 0;
-                                                                                                                                                                                                                                                                                                                                                                     font-family: "open sans";
-                                                                                                                                                                                                                                                                                                                                                                     text-transform: uppercase;
-                                                                                                                                                                                                                                                                                                                                                                     letter-spacing: 3px;
-                                                                                                                                                                                                                                                                                                                                                                     text-align: center;
-                                                                                                                                                                                                                                                                                                                                                                     align-content: inherit;
-                                                                                                                                                                                                                                                                                                                                                                     top: 64%;
-                                                                                                                                                                                                                                                                                                                                                                     width: 50%;
-                                                                                                                                                                                                                                                                                                                                                                     height: auto;
-                                                                                                                                                                                                                                                                                                                                                                     scale: auto;
-                                                                                                                                                                                                                                                                                                                                                                     color: rgb(82, 82, 82);
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 #logo {
-                                                                                                                                                                                                                                                                                                                                                                     position: absolute;
-                                                                                                                                                                                                                                                                                                                                                                     margin: 0 auto;
-                                                                                                                                                                                                                                                                                                                                                                     left: 0;
-                                                                                                                                                                                                                                                                                                                                                                     right: 0;
-                                                                                                                                                                                                                                                                                                                                                                     top: 18%;
-                                                                                                                                                                                                                                                                                                                                                                     max-width: 100%;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 /*------------------------------------------About-----*/
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 h3 {
-                                                                                                                                                                                                                                                                                                                                                                     margin-top: 20px;
-                                                                                                                                                                                                                                                                                                                                                                     color: #A64650;
-                                                                                                                                                                                                                                                                                                                                                                     font-size: 28px;
-                                                                                                                                                                                                                                                                                                                                                                     padding-left: 10px;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .info {
-                                                                                                                                                                                                                                                                                                                                                                     padding-top: 30px;
-                                                                                                                                                                                                                                                                                                                                                                     padding-left: 30px;
-                                                                                                                                                                                                                                                                                                                                                                     line-height: 26px;
-                                                                                                                                                                                                                                                                                                                                                                     font-size: 18px;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .introduction {
-                                                                                                                                                                                                                                                                                                                                                                     margin-top: 20px;
-                                                                                                                                                                                                                                                                                                                                                                     padding-left: 15px;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .cv-download {
-                                                                                                                                                                                                                                                                                                                                                                     position: relative;
-                                                                                                                                                                                                                                                                                                                                                                     margin-top: 250px;
-                                                                                                                                                                                                                                                                                                                                                                     margin-left: 10px;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 /*------------------------------------------Skills----*/
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .percentage {
-                                                                                                                                                                                                                                                                                                                                                                     column-count: 5;
-                                                                                                                                                                                                                                                                                                                                                                     column-gap: -100px;
-                                                                                                                                                                                                                                                                                                                                                                     position: absolute;
-                                                                                                                                                                                                                                                                                                                                                                     margin-left: 0px;
-                                                                                                                                                                                                                                                                                                                                                                     margin-top: 40px;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .circular-chart {
-                                                                                                                                                                                                                                                                                                                                                                     display: block;
-                                                                                                                                                                                                                                                                                                                                                                     margin-left: 30px;
-                                                                                                                                                                                                                                                                                                                                                                     max-width: 80%;
-                                                                                                                                                                                                                                                                                                                                                                     max-height: 250px;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .circle {
-                                                                                                                                                                                                                                                                                                                                                                     stroke: #A64650;
-                                                                                                                                                                                                                                                                                                                                                                     fill: none;
-                                                                                                                                                                                                                                                                                                                                                                     stroke-width: 2.8;
-                                                                                                                                                                                                                                                                                                                                                                     stroke-linecap: round;
-                                                                                                                                                                                                                                                                                                                                                                     animation: progress 1s ease-out forwards;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .skill {
-                                                                                                                                                                                                                                                                                                                                                                     font-family: "Montserrat";
-                                                                                                                                                                                                                                                                                                                                                                     font-size: 18px;
-                                                                                                                                                                                                                                                                                                                                                                     column-count: 1;
-                                                                                                                                                                                                                                                                                                                                                                     position: relative;
-                                                                                                                                                                                                                                                                                                                                                                     letter-spacing: 3px;
-                                                                                                                                                                                                                                                                                                                                                                     margin-left: 40px;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .skill-small {
-                                                                                                                                                                                                                                                                                                                                                                     font-family: "Montserrat";
-                                                                                                                                                                                                                                                                                                                                                                     font-size: 18px;
-                                                                                                                                                                                                                                                                                                                                                                     column-count: 1;
-                                                                                                                                                                                                                                                                                                                                                                     position: relative;
-                                                                                                                                                                                                                                                                                                                                                                     letter-spacing: 3px;
-                                                                                                                                                                                                                                                                                                                                                                     margin-left: 70px;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 @keyframes progress {
-                                                                                                                                                                                                                                                                                                                                                                     0% {
-                                                                                                                                                                                                                                                                                                                                                                         stroke-dasharray: 0 100;
-                                                                                                                                                                                                                                                                                                                                                                     }
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 /*------------------------------------------portfolio----*/
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .portfolio img {
-                                                                                                                                                                                                                                                                                                                                                                     position: relative;
-                                                                                                                                                                                                                                                                                                                                                                     z-index: -1;
-                                                                                                                                                                                                                                                                                                                                                                     float: left;
-                                                                                                                                                                                                                                                                                                                                                                     width: 60%;
-                                                                                                                                                                                                                                                                                                                                                                     display: block;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 h5 {
-                                                                                                                                                                                                                                                                                                                                                                     color: #fafafa;
-                                                                                                                                                                                                                                                                                                                                                                     font-size: 22px;
-                                                                                                                                                                                                                                                                                                                                                                     position: absolute;
-                                                                                                                                                                                                                                                                                                                                                                     background: #A64650;
-                                                                                                                                                                                                                                                                                                                                                                     padding: 50px;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 /*------------------------------------------contact----*/
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 h4 {
-                                                                                                                                                                                                                                                                                                                                                                     position: absolute;
-                                                                                                                                                                                                                                                                                                                                                                     color: #A64650;
-                                                                                                                                                                                                                                                                                                                                                                     font-family: "Montserrat";
-                                                                                                                                                                                                                                                                                                                                                                     margin-top: 200px;
-                                                                                                                                                                                                                                                                                                                                                                     margin-left: 110px;
-                                                                                                                                                                                                                                                                                                                                                                     font-size: 28px;
-                                                                                                                                                                                                                                                                                                                                                                     font-weight: 900;
-                                                                                                                                                                                                                                                                                                                                                                     ;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 form {
-                                                                                                                                                                                                                                                                                                                                                                     margin-top: 300px;
-                                                                                                                                                                                                                                                                                                                                                                     padding-left: 100px;
-                                                                                                                                                                                                                                                                                                                                                                     position: absolute;
-                                                                                                                                                                                                                                                                                                                                                                     font-family: "Montserrat";
-                                                                                                                                                                                                                                                                                                                                                                     margin-left: 20px;
-                                                                                                                                                                                                                                                                                                                                                                     width: 1500px;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .submit,
-                                                                                                                                                                                                                                                                                                                                                                 .btn {
-                                                                                                                                                                                                                                                                                                                                                                     column-fill: auto;
-                                                                                                                                                                                                                                                                                                                                                                     color: ivory;
-                                                                                                                                                                                                                                                                                                                                                                     margin-top: 30px;
-                                                                                                                                                                                                                                                                                                                                                                     margin-left: 10px;
-                                                                                                                                                                                                                                                                                                                                                                     margin-bottom: 20px;
-                                                                                                                                                                                                                                                                                                                                                                     width: auto;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 /*------------------------------------------Footer----*/
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 footer {
-                                                                                                                                                                                                                                                                                                                                                                     background-color: #A64650;
-                                                                                                                                                                                                                                                                                                                                                                     height: 150px;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .social {
-                                                                                                                                                                                                                                                                                                                                                                     padding-top: 10px;
-                                                                                                                                                                                                                                                                                                                                                                     padding-right: 30px;
-                                                                                                                                                                                                                                                                                                                                                                     text-align: center;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .social li {
-                                                                                                                                                                                                                                                                                                                                                                     display: inline;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 .social i {
-                                                                                                                                                                                                                                                                                                                                                                     font-size: 20px;
-                                                                                                                                                                                                                                                                                                                                                                     margin-top: 30px;
-                                                                                                                                                                                                                                                                                                                                                                     padding: 20px;
-                                                                                                                                                                                                                                                                                                                                                                     color: #fafafa;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 /*------------ imagery--------*/
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 #hero-image {
-                                                                                                                                                                                                                                                                                                                                                                     height: 1100px;
-                                                                                                                                                                                                                                                                                                                                                                     width: 100%;
-                                                                                                                                                                                                                                                                                                                                                                     background: url("../images/Hero-image03.jpg") no-repeat center center;
-                                                                                                                                                                                                                                                                                                                                                                     background-position-y: top;
-                                                                                                                                                                                                                                                                                                                                                                     background-attachment: fixed;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 #about {
-                                                                                                                                                                                                                                                                                                                                                                     height: 900px;
-                                                                                                                                                                                                                                                                                                                                                                     width: 100%;
-                                                                                                                                                                                                                                                                                                                                                                     background: url("../images/about-me.jpg") no-repeat center center;
-                                                                                                                                                                                                                                                                                                                                                                     background-size: cover;
-                                                                                                                                                                                                                                                                                                                                                                     overflow: hidden;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 #contact {
-                                                                                                                                                                                                                                                                                                                                                                     height: 1200px;
-                                                                                                                                                                                                                                                                                                                                                                     width: 100%;
-                                                                                                                                                                                                                                                                                                                                                                     background: url("../images/Contact Backing.jpg") no-repeat center center;
-                                                                                                                                                                                                                                                                                                                                                                     background-position-y: top;
-                                                                                                                                                                                                                                                                                                                                                                     background-position-x: right;
-                                                                                                                                                                                                                                                                                                                                                                     background-attachment: fixed;
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 @media (min-width:576px) {
-                                                                                                                                                                                                                                                                                                                                                                     .portfolio img {
-                                                                                                                                                                                                                                                                                                                                                                         width: 25%;
-                                                                                                                                                                                                                                                                                                                                                                     }
-                                                                                                                                                                                                                                                                                                                                                                 }
-                                                                                                                                                                                                                                                                                                                                                                 /*------------media mobile header--------*/
-                                                                                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                                                                                 @media (max-width:576px) {
-                                                                                                                                                                                                                                                                                                                                                                     .nav-logo {
-                                                                                                                                                                                                                                                                                                                                                                         margin-top: 15px;
-                                                                                                                                                                                                                                                                                                                                                                         margin-left: 10px;
-                                                                                                                                                                                                                                                                                                                                                                         width: 30px;
-                                                                                                                                                                                                                                                                                                                                                                         height: auto;
-                                                                                                                                                                                                                                                                                                                                                                     }
-                                                                                                                                                                                                                                                                                                                                                                     .nav-link {
-                                                                                                                                                                                                                                                                                                                                                                         position: relative;
-                                                                                                                                                                                                                                                                                                                                                                         font-size: 10px;
-                                                                                                                                                                                                                                                                                                                                                                         line-height: 5px;
-                                                                                                                                                                                                                                                                                                                                                                     }
-                                                                                                                                                                                                                                                                                                                                                                     .nav {
-                                                                                                                                                                                                                                                                                                                                                                         align-content: center;
-                                                                                                                                                                                                                                                                                                                                                                         height: 60px;
-                                                                                                                                                                                                                                                                                                                                                                     }
-                                                                                                                                                                                                                                                                                                                                                                     #hero-image {
-                                                                                                                                                                                                                                                                                                                                                                         height: 500px;
-                                                                                                                                                                                                                                                                                                                                                                         box-sizing: unset;
-                                                                                                                                                                                                                                                                                                                                                                         background-position-x: left;
-                                                                                                                                                                                                                                                                                                                                                                         background-position-y: top;
-                                                                                                                                                                                                                                                                                                                                                                         background-attachment: fixed;
-                                                                                                                                                                                                                                                                                                                                                                     }
-                                                                                                                                                                                                                                                                                                                                                                     #logo {
-                                                                                                                                                                                                                                                                                                                                                                         max-width: 50%;
-                                                                                                                                                                                                                                                                                                                                                                     }
-                                                                                                                                                                                                                                                                                                                                                                     .intro {
-                                                                                                                                                                                                                                                                                                                                                                         align-content: center;
-                                                                                                                                                                                                                                                                                                                                                                         font-size: 16px;
-                                                                                                                                                                                                                                                                                                                                                                         font-weight: 600;
-                                                                                                                                                                                                                                                                                                                                                                     }
-                                                                                                                                                                                                                                                                                                                                                                     h1 {
-                                                                                                                                                                                                                                                                                                                                                                         font-size: 24px;
-                                                                                                                                                                                                                                                                                                                                                                     }
-                                                                                                                                                                                                                                                                                                                                                                     .hero-text {
-                                                                                                                                                                                                                                                                                                                                                                         margin: 0 auto;
-                                                                                                                                                                                                                                                                                                                                                                         left: 0;
-                                                                                                                                                                                                                                                                                                                                                                         right: 0;
-                                                                                                                                                                                                                                                                                                                                                                         font-family: "open sans";
-                                                                                                                                                                                                                                                                                                                                                                         text-transform: uppercase;
-                                                                                                                                                                                                                                                                                                                                                                         letter-spacing: 3px;
-                                                                                                                                                                                                                                                                                                                                                                         top: 44%;
-                                                                                                                                                                                                                                                                                                                                                                         width: 300px;
-                                                                                                                                                                                                                                                                                                                                                                     }
-                                                                                                                                                                                                                                                                                                                                                                     /*------------media mobile about--------*/
-                                                                                                                                                                                                                                                                                                                                                                     @media (max-width:576px) {
-                                                                                                                                                                                                                                                                                                                                                                         #about {
-                                                                                                                                                                                                                                                                                                                                                                             height: 1100px;
-                                                                                                                                                                                                                                                                                                                                                                             box-sizing: unset;
-                                                                                                                                                                                                                                                                                                                                                                             background-position-x: left;
-                                                                                                                                                                                                                                                                                                                                                                             background-position-y: center;
-                                                                                                                                                                                                                                                                                                                                                                             background-attachment: fixed;
-                                                                                                                                                                                                                                                                                                                                                                         }
-                                                                                                                                                                                                                                                                                                                                                                         h3 {
-                                                                                                                                                                                                                                                                                                                                                                             padding-top: 5px;
-                                                                                                                                                                                                                                                                                                                                                                             color: #A64650;
-                                                                                                                                                                                                                                                                                                                                                                             font-size: 16px;
-                                                                                                                                                                                                                                                                                                                                                                             width: 350px;
-                                                                                                                                                                                                                                                                                                                                                                             text-align: center;
-                                                                                                                                                                                                                                                                                                                                                                             margin-block-end: 1.6rem;
-                                                                                                                                                                                                                                                                                                                                                                         }
-                                                                                                                                                                                                                                                                                                                                                                         .info {
-                                                                                                                                                                                                                                                                                                                                                                             padding-left: 12px;
-                                                                                                                                                                                                                                                                                                                                                                         }
-                                                                                                                                                                                                                                                                                                                                                                         .introduction {
-                                                                                                                                                                                                                                                                                                                                                                             text-align: center;
-                                                                                                                                                                                                                                                                                                                                                                             font-size: 14px;
-                                                                                                                                                                                                                                                                                                                                                                             width: 350px;
-                                                                                                                                                                                                                                                                                                                                                                             line-height: 18px;
-                                                                                                                                                                                                                                                                                                                                                                         }
-                                                                                                                                                                                                                                                                                                                                                                         .cv-download {
-                                                                                                                                                                                                                                                                                                                                                                             position: relative;
-                                                                                                                                                                                                                                                                                                                                                                             margin-top: 420px;
-                                                                                                                                                                                                                                                                                                                                                                             margin-left: 50px;
-                                                                                                                                                                                                                                                                                                                                                                             height: 20px;
-                                                                                                                                                                                                                                                                                                                                                                             width: 320px;
-                                                                                                                                                                                                                                                                                                                                                                         }
-                                                                                                                                                                                                                                                                                                                                                                         .percentage {
-                                                                                                                                                                                                                                                                                                                                                                             column-count: 2;
-                                                                                                                                                                                                                                                                                                                                                                             position: absolute;
-                                                                                                                                                                                                                                                                                                                                                                             margin-left: 50px;
-                                                                                                                                                                                                                                                                                                                                                                             margin-top: 40px;
-                                                                                                                                                                                                                                                                                                                                                                         }
-                                                                                                                                                                                                                                                                                                                                                                         .circular-chart {
-                                                                                                                                                                                                                                                                                                                                                                             display: block;
-                                                                                                                                                                                                                                                                                                                                                                             margin-left: 30px;
-                                                                                                                                                                                                                                                                                                                                                                             max-width: 80%;
-                                                                                                                                                                                                                                                                                                                                                                             max-height: 250px;
-                                                                                                                                                                                                                                                                                                                                                                         }
-                                                                                                                                                                                                                                                                                                                                                                         .circle {
-                                                                                                                                                                                                                                                                                                                                                                             stroke: #A64650;
-                                                                                                                                                                                                                                                                                                                                                                             fill: none;
-                                                                                                                                                                                                                                                                                                                                                                             stroke-width: 2.84;
-                                                                                                                                                                                                                                                                                                                                                                             stroke-linecap: round;
-                                                                                                                                                                                                                                                                                                                                                                             animation: progress 1s ease-out forwards;
-                                                                                                                                                                                                                                                                                                                                                                         }
-                                                                                                                                                                                                                                                                                                                                                                         .skill {
-                                                                                                                                                                                                                                                                                                                                                                             font-family: "Montserrat";
-                                                                                                                                                                                                                                                                                                                                                                             font-size: 12px;
-                                                                                                                                                                                                                                                                                                                                                                             column-count: 1;
-                                                                                                                                                                                                                                                                                                                                                                             position: relative;
-                                                                                                                                                                                                                                                                                                                                                                             letter-spacing: 2px;
-                                                                                                                                                                                                                                                                                                                                                                             margin-left: 20px;
-                                                                                                                                                                                                                                                                                                                                                                             margin-top: 2px;
-                                                                                                                                                                                                                                                                                                                                                                             line-height: 12px;
-                                                                                                                                                                                                                                                                                                                                                                         }
-                                                                                                                                                                                                                                                                                                                                                                         .skill-small {
-                                                                                                                                                                                                                                                                                                                                                                             font-family: "Montserrat";
-                                                                                                                                                                                                                                                                                                                                                                             font-size: 12px;
-                                                                                                                                                                                                                                                                                                                                                                             column-count: 1;
-                                                                                                                                                                                                                                                                                                                                                                             position: relative;
-                                                                                                                                                                                                                                                                                                                                                                             letter-spacing: 3px;
-                                                                                                                                                                                                                                                                                                                                                                             line-height: 50px;
-                                                                                                                                                                                                                                                                                                                                                                             margin-left: 50px;
-                                                                                                                                                                                                                                                                                                                                                                         }
-                                                                                                                                                                                                                                                                                                                                                                         @keyframes progress {
-                                                                                                                                                                                                                                                                                                                                                                             0% {
-                                                                                                                                                                                                                                                                                                                                                                                 stroke-dasharray: 0 100;
-                                                                                                                                                                                                                                                                                                                                                                             }
-                                                                                                                                                                                                                                                                                                                                                                         }
-                                                                                                                                                                                                                                                                                                                                                                     }
-                                                                                                                                                                                                                                                                                                                                                                     /*------------media mobile portfolio--------*/
-                                                                                                                                                                                                                                                                                                                                                                     @media (max-width:576px) {
-                                                                                                                                                                                                                                                                                                                                                                         h2 {
-                                                                                                                                                                                                                                                                                                                                                                             padding-top: 30px;
-                                                                                                                                                                                                                                                                                                                                                                             align-items: center;
-                                                                                                                                                                                                                                                                                                                                                                             color: #fafafa;
-                                                                                                                                                                                                                                                                                                                                                                             font-size: 24px;
-                                                                                                                                                                                                                                                                                                                                                                             font-weight: 900;
-                                                                                                                                                                                                                                                                                                                                                                             font-family: "montserrat";
-                                                                                                                                                                                                                                                                                                                                                                         }
-                                                                                                                                                                                                                                                                                                                                                                         div .recent-projects {
-                                                                                                                                                                                                                                                                                                                                                                             height: 100px;
-                                                                                                                                                                                                                                                                                                                                                                             width: auto;
-                                                                                                                                                                                                                                                                                                                                                                             background-color: #A64650;
-                                                                                                                                                                                                                                                                                                                                                                         }
-                                                                                                                                                                                                                                                                                                                                                                         @media (max-width:576px) {
-                                                                                                                                                                                                                                                                                                                                                                             .portfolio img {
-                                                                                                                                                                                                                                                                                                                                                                                 position: relative;
-                                                                                                                                                                                                                                                                                                                                                                                 float: left;
-                                                                                                                                                                                                                                                                                                                                                                                 width: 50%;
-                                                                                                                                                                                                                                                                                                                                                                                 display: block;
-                                                                                                                                                                                                                                                                                                                                                                             }
-                                                                                                                                                                                                                                                                                                                                                                             h5 {
-                                                                                                                                                                                                                                                                                                                                                                                 color: #fafafa;
-                                                                                                                                                                                                                                                                                                                                                                                 font-size: 12px;
-                                                                                                                                                                                                                                                                                                                                                                                 position: absolute;
-                                                                                                                                                                                                                                                                                                                                                                                 background: #A64650;
-                                                                                                                                                                                                                                                                                                                                                                                 padding: 18px;
-                                                                                                                                                                                                                                                                                                                                                                             }
-                                                                                                                                                                                                                                                                                                                                                                         }
-                                                                                                                                                                                                                                                                                                                                                                         /*------------media mobile contact--------*/
-                                                                                                                                                                                                                                                                                                                                                                         @media (max-width:576px) {
-                                                                                                                                                                                                                                                                                                                                                                             #contact {
-                                                                                                                                                                                                                                                                                                                                                                                 height: 700px;
-                                                                                                                                                                                                                                                                                                                                                                                 background-position-x: center;
-                                                                                                                                                                                                                                                                                                                                                                                 background-position-y: top;
-                                                                                                                                                                                                                                                                                                                                                                                 background-attachment: fixed;
-                                                                                                                                                                                                                                                                                                                                                                             }
-                                                                                                                                                                                                                                                                                                                                                                             h4 {
-                                                                                                                                                                                                                                                                                                                                                                                 position: absolute;
-                                                                                                                                                                                                                                                                                                                                                                                 color: #A64650;
-                                                                                                                                                                                                                                                                                                                                                                                 font-family: "Montserrat";
-                                                                                                                                                                                                                                                                                                                                                                                 margin-top: 60px;
-                                                                                                                                                                                                                                                                                                                                                                                 margin-left: 40px;
-                                                                                                                                                                                                                                                                                                                                                                                 margin-bottom: 50px;
-                                                                                                                                                                                                                                                                                                                                                                                 font-size: 24px;
-                                                                                                                                                                                                                                                                                                                                                                                 font-weight: 900;
-                                                                                                                                                                                                                                                                                                                                                                                 ;
-                                                                                                                                                                                                                                                                                                                                                                             }
-                                                                                                                                                                                                                                                                                                                                                                             form {
-                                                                                                                                                                                                                                                                                                                                                                                 margin-top: 100px;
-                                                                                                                                                                                                                                                                                                                                                                                 padding-left: 20px;
-                                                                                                                                                                                                                                                                                                                                                                                 position: absolute;
-                                                                                                                                                                                                                                                                                                                                                                                 font-family: "Montserrat";
-                                                                                                                                                                                                                                                                                                                                                                                 margin-left: 20px;
-                                                                                                                                                                                                                                                                                                                                                                                 width: 350px;
-                                                                                                                                                                                                                                                                                                                                                                             }
-                                                                                                                                                                                                                                                                                                                                                                             .submit,
-                                                                                                                                                                                                                                                                                                                                                                             .btn {
-                                                                                                                                                                                                                                                                                                                                                                                 margin-top: 5px;
-                                                                                                                                                                                                                                                                                                                                                                                 margin-left: 50px;
-                                                                                                                                                                                                                                                                                                                                                                                 margin-bottom: 20px;
-                                                                                                                                                                                                                                                                                                                                                                                 width: auto;
-                                                                                                                                                                                                                                                                                                                                                                             }
-                                                                                                                                                                                                                                                                                                                                                                         }
-                                                                                                                                                                                                                                                                                                                                                                         /*------------media mobile footer--------*/
-                                                                                                                                                                                                                                                                                                                                                                         @media (max-width:576px) {
-                                                                                                                                                                                                                                                                                                                                                                             footer {
-                                                                                                                                                                                                                                                                                                                                                                                 background-color: #A64650;
-                                                                                                                                                                                                                                                                                                                                                                                 height: 100px;
-                                                                                                                                                                                                                                                                                                                                                                             }
-                                                                                                                                                                                                                                                                                                                                                                             .social i {
-                                                                                                                                                                                                                                                                                                                                                                                 display: inline;
-                                                                                                                                                                                                                                                                                                                                                                                 font-size: 20px;
-                                                                                                                                                                                                                                                                                                                                                                                 color: #fafafa;
-                                                                                                                                                                                                                                                                                                                                                                             }
-                                                                                                                                                                                                                                                                                                                                                                             .social {
-                                                                                                                                                                                                                                                                                                                                                                                 padding-top: 30px;
-                                                                                                                                                                                                                                                                                                                                                                                 padding-right: 30px;
-                                                                                                                                                                                                                                                                                                                                                                                 text-align: center;
-                                                                                                                                                                                                                                                                                                                                                                             }
-                                                                                                                                                                                                                                                                                                                                                                         }
+          @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500|Open+Sans:300,400,500,600,700,800,900,1100');
+  body,
+  html {
+      font-family: "open sans";
+      color: rgb(82, 82, 82);
+      height: 100%;
+      width: 100%;
+      margin: 0;
+  }
+  /*------------------------------------------Header-----*/
+  
+  .nav-bar {
+      position: fixed;
+      z-index: 100;
+      top: 0;
+      width: 100%;
+      background-color: #fafafa;
+  }
+  
+  .nav-item {
+      position: sticky;
+      line-height: 60px;
+  }
+  
+  .nav-link {
+      position: relative;
+      font-size: 12px;
+      letter-spacing: 3px;
+      color: inherit;
+  }
+  
+  .nav-link:hover {
+      color: #A64650;
+  }
+  
+  .nav-logo {
+      margin-left: 30px;
+      float: left;
+      width: 80px;
+      height: auto;
+  }
+  
+  .intro {
+      color: #A64650;
+      font-size: 32px;
+      font-weight: 400;
+  }
+  
+  h1 {
+      font-size: 28px;
+      scale: auto;
+  }
+  
+  .hero-text {
+      position: absolute;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      font-family: "open sans";
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      text-align: center;
+      align-content: inherit;
+      top: 64%;
+      width: 50%;
+      height: auto;
+      scale: auto;
+      color: rgb(82, 82, 82);
+  }
+  
+  #logo {
+      position: absolute;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      top: 18%;
+      max-width: 100%;
+  }
+  /*------------------------------------------About-----*/
+  
+  h3 {
+      margin-top: 20px;
+      color: #A64650;
+      font-size: 28px;
+      padding-left: 10px;
+  }
+  
+  .info {
+      padding-top: 30px;
+      padding-left: 30px;
+      line-height: 26px;
+      font-size: 18px;
+  }
+  
+  .introduction {
+      margin-top: 20px;
+      padding-left: 15px;
+  }
+  
+  .cv-download {
+      position: relative;
+      margin-top: 250px;
+      margin-left: 10px;
+  }
+  /*------------------------------------------Skills----*/
+  
+  .percentage {
+      column-count: 5;
+      column-gap: -100px;
+      position: absolute;
+      margin-left: 0px;
+      margin-top: 40px;
+  }
+  
+  .circular-chart {
+      display: block;
+      margin-left: 30px;
+      max-width: 80%;
+      max-height: 250px;
+  }
+  
+  .circle {
+      stroke: #A64650;
+      fill: none;
+      stroke-width: 2.8;
+      stroke-linecap: round;
+      animation: progress 1s ease-out forwards;
+  }
+  
+  .skill {
+      font-family: "Montserrat";
+      font-size: 18px;
+      column-count: 1;
+      position: relative;
+      letter-spacing: 3px;
+      margin-left: 40px;
+  }
+  
+  .skill-small {
+      font-family: "Montserrat";
+      font-size: 18px;
+      column-count: 1;
+      position: relative;
+      letter-spacing: 3px;
+      margin-left: 70px;
+  }
+  
+  @keyframes progress {
+      0% {
+          stroke-dasharray: 0 100;
+      }
+  }
+  /*------------------------------------------portfolio----*/
+  
+  .portfolio img {
+      position: relative;
+      z-index: -1;
+      float: left;
+      width: 60%;
+      display: block;
+  }
+  
+  h5 {
+      color: #fafafa;
+      font-size: 22px;
+      position: absolute;
+      background: #A64650;
+      padding: 50px;
+  }
+  /*------------------------------------------contact----*/
+  
+  h4 {
+      position: absolute;
+      color: #A64650;
+      font-family: "Montserrat";
+      margin-top: 200px;
+      margin-left: 110px;
+      font-size: 28px;
+      font-weight: 900;
+      ;
+  }
+  
+  form {
+      margin-top: 300px;
+      padding-left: 100px;
+      position: absolute;
+      font-family: "Montserrat";
+      margin-left: 20px;
+      width: 1500px;
+  }
+  
+  .submit,
+  .btn {
+      column-fill: auto;
+      color: ivory;
+      margin-top: 30px;
+      margin-left: 10px;
+      margin-bottom: 20px;
+      width: auto;
+  }
+  /*------------------------------------------Footer----*/
+  
+  footer {
+      background-color: #A64650;
+      height: 150px;
+  }
+  
+  .social {
+      padding-top: 10px;
+      padding-right: 30px;
+      text-align: center;
+  }
+  
+  .social li {
+      display: inline;
+  }
+  
+  .social i {
+      font-size: 20px;
+      margin-top: 30px;
+      padding: 20px;
+      color: #fafafa;
+  }
+  /*------------ imagery--------*/
+  
+  #hero-image {
+      height: 1100px;
+      width: 100%;
+      background: url("../images/Hero-image03.jpg") no-repeat center center;
+      background-position-y: top;
+      background-attachment: fixed;
+  }
+  
+  #about {
+      height: 900px;
+      width: 100%;
+      background: url("../images/about-me.jpg") no-repeat center center;
+      background-size: cover;
+      overflow: hidden;
+  }
+  
+  #contact {
+      height: 1200px;
+      width: 100%;
+      background: url("../images/Contact Backing.jpg") no-repeat center center;
+      background-position-y: top;
+      background-position-x: right;
+      background-attachment: fixed;
+  }
+  
+  @media (min-width:576px) {
+      .portfolio img {
+          width: 25%;
+      }
+  }
+  /*------------media mobile header--------*/
+  
+  @media (max-width:576px) {
+      .nav-logo {
+          margin-top: 15px;
+          margin-left: 10px;
+          width: 30px;
+          height: auto;
+      }
+      .nav-link {
+          position: relative;
+          font-size: 10px;
+          line-height: 5px;
+      }
+      .nav {
+          align-content: center;
+          height: 60px;
+      }
+      #hero-image {
+          height: 500px;
+          box-sizing: unset;
+          background-position-x: left;
+          background-position-y: top;
+          background-attachment: fixed;
+      }
+      #logo {
+          max-width: 50%;
+      }
+      .intro {
+          align-content: center;
+          font-size: 16px;
+          font-weight: 600;
+      }
+      h1 {
+          font-size: 24px;
+      }
+      .hero-text {
+          margin: 0 auto;
+          left: 0;
+          right: 0;
+          font-family: "open sans";
+          text-transform: uppercase;
+          letter-spacing: 3px;
+          top: 44%;
+          width: 300px;
+      }
+      /*------------media mobile about--------*/
+      @media (max-width:576px) {
+          #about {
+              height: 1100px;
+              box-sizing: unset;
+              background-position-x: left;
+              background-position-y: center;
+              background-attachment: fixed;
+          }
+          h3 {
+              padding-top: 5px;
+              color: #A64650;
+              font-size: 16px;
+              width: 350px;
+              text-align: center;
+              margin-block-end: 1.6rem;
+          }
+          .info {
+              padding-left: 12px;
+          }
+          .introduction {
+              text-align: center;
+              font-size: 14px;
+              width: 350px;
+              line-height: 18px;
+          }
+          .cv-download {
+              position: relative;
+              margin-top: 420px;
+              margin-left: 50px;
+              height: 20px;
+              width: 320px;
+          }
+          .percentage {
+              column-count: 2;
+              position: absolute;
+              margin-left: 50px;
+              margin-top: 40px;
+          }
+          .circular-chart {
+              display: block;
+              margin-left: 30px;
+              max-width: 80%;
+              max-height: 250px;
+          }
+          .circle {
+              stroke: #A64650;
+              fill: none;
+              stroke-width: 2.84;
+              stroke-linecap: round;
+              animation: progress 1s ease-out forwards;
+          }
+          .skill {
+              font-family: "Montserrat";
+              font-size: 12px;
+              column-count: 1;
+              position: relative;
+              letter-spacing: 2px;
+              margin-left: 20px;
+              margin-top: 2px;
+              line-height: 12px;
+          }
+          .skill-small {
+              font-family: "Montserrat";
+              font-size: 12px;
+              column-count: 1;
+              position: relative;
+              letter-spacing: 3px;
+              line-height: 50px;
+              margin-left: 50px;
+          }
+          @keyframes progress {
+              0% {
+                  stroke-dasharray: 0 100;
+              }
+          }
+      }
+      /*------------media mobile portfolio--------*/
+      @media (max-width:576px) {
+          h2 {
+              padding-top: 30px;
+              align-items: center;
+              color: #fafafa;
+              font-size: 24px;
+              font-weight: 900;
+              font-family: "montserrat";
+          }
+          div .recent-projects {
+              height: 100px;
+              width: auto;
+              background-color: #A64650;
+          }
+          @media (max-width:576px) {
+              .portfolio img {
+                  position: relative;
+                  float: left;
+                  width: 50%;
+                  display: block;
+              }
+              h5 {
+                  color: #fafafa;
+                  font-size: 12px;
+                  position: absolute;
+                  background: #A64650;
+                  padding: 18px;
+              }
+          }
+          /*------------media mobile contact--------*/
+          @media (max-width:576px) {
+              #contact {
+                  height: 700px;
+                  background-position-x: center;
+                  background-position-y: top;
+                  background-attachment: fixed;
+              }
+              h4 {
+                  position: absolute;
+                  color: #A64650;
+                  font-family: "Montserrat";
+                  margin-top: 60px;
+                  margin-left: 40px;
+                  margin-bottom: 50px;
+                  font-size: 24px;
+                  font-weight: 900;
+                  ;
+              }
+              form {
+                  margin-top: 100px;
+                  padding-left: 20px;
+                  position: absolute;
+                  font-family: "Montserrat";
+                  margin-left: 20px;
+                  width: 350px;
+              }
+              .submit,
+              .btn {
+                  margin-top: 5px;
+                  margin-left: 50px;
+                  margin-bottom: 20px;
+                  width: auto;
+              }
+          }
+          /*------------media mobile footer--------*/
+          @media (max-width:576px) {
+              footer {
+                  background-color: #A64650;
+                  height: 100px;
+              }
+              .social i {
+                  display: inline;
+                  font-size: 20px;
+                  color: #fafafa;
+              }
+              .social {
+                  padding-top: 30px;
+                  padding-right: 30px;
+                  text-align: center;
+              }
+          }
