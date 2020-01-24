@@ -14,10 +14,6 @@ As an Employer I expect to see recent projects of samanthas work, along with a d
 
 As a customer I also expect to see recent projects Samantha has worked on but also be able to get in touch to discuss work availability.
 
-### Landing Page wireframes
-
-![alt text](https://github.com/sammysimmons/sammysimmons.github.io/blob/master/images/Wireframe-sketchup.jpeg)
-![alt text](https://github.com/sammysimmons/sammysimmons.github.io/blob/master/images/Website_mock_up.jpg)
 
 # Features
 I have utilised alot of my project work to create the background of this project, along with creating my own brand identity, and follow the colour scheme throughout the website.
